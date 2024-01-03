@@ -47,6 +47,7 @@ local_conf_header:
     SDKMACHINE = "x86_64"
     USER_CLASSES = "buildstats"
     PATCHRESOLVE = "noop"
+    LICENSE_FLAGS_ACCEPTED = "synaptics-killswitch"
   debug-tweaks: |
     EXTRA_IMAGE_FEATURES = "debug-tweaks"
   diskmon: |
